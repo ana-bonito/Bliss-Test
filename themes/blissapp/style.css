@@ -1,0 +1,58 @@
+/*
+Theme Name: Bliss APP
+Author: Ana
+Version: 1.0
+ */
+
+ /* Hero Custo styles*/
+ .hero-content{
+   position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+/* Pagination custom styles */
+.pagination {
+	width:100%;
+   position:relative;
+   font-size: 16px;
+	list-style-type:none;
+}
+.pagination span, .pagination a {
+   display:block;
+   float:left;
+   margin: 2px 2px 2px 0;
+   padding:6px 9px 5px 9px;
+   text-decoration:none;
+   width:auto;
+   color:#fff;
+   background: #000;
+}
+.pagination a:hover{
+   color:#fff;
+   background: #000;
+}
+.pagination .active a{
+   background: #bdaf65;
+   color:#fff;
+ }
+
+/* Slick slider custom styles */
+ .block__slide{
+   width: 100%;
+   position: relative;
+   overflow: hidden;
+}
+.slick-slide {
+    display: none;
+    float: left;
+    height: auto;
+    min-height: 1px;
+}
+
+/* Home page article list custom styles */
+.border-color{
+  border: 1px solid #f1f1f1;
+}
